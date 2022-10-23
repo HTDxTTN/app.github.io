@@ -1,0 +1,113 @@
+@media only screen and (max-width: 1200px){
+    .header {
+        background-color: rgb(10, 134, 236);
+        height: 50px;
+        padding: 16px 0 0 0;
+        padding-bottom: 10px;
+    }
+    .h1{
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: left;
+    }
+    .header-emoji {
+        font-size: 48px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .header-title {
+        color:white;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin: 0 auto;
+        text-shadow: 2px 2px 2px rgb(67, 60, 60);
+    }
+    .menu{
+        display: flex;
+        background-color:#F7F7F7;
+        padding-right: 10px;
+        padding-left: 10px;
+        
+    }
+    .menu-title{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+        height: 120px;
+        width: 25%;
+        margin-left: 5px;
+        margin-right: 5px;
+        border-radius: 3px 3px;
+        padding-top: 25px;
+        padding-left: 15px;
+    }
+    .wrapper{
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .mycard{
+       
+        margin-bottom: 10px;
+        box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+        width: 99%;
+        margin-left: 5px;
+        margin-right: 5px;
+        float: left;
+    }
+    .Select-control {
+        width: 256px;
+        height: 48px;
+    }
+    .Select--single > .Select-control .Select-value, .Select-placeholder {
+        line-height: 48px;
+    }
+    .Select--multi .Select-value-label {
+        line-height: 32px;
+    }
+}
+
+@media only screen and (max-width: 960px){
+    .mycard{width: 98.7%;}
+    .menu
+    {
+        display: grid;
+         grid-template-columns: repeat(2, 460px);
+        grid-template-rows: repeat(1, 160px);
+    }
+    .menu-title{width: 95%;}
+}
+
+ @media only screen and (max-width: 768px){
+    .mycard{width: 98.3%;}
+    .menu
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 360px);
+        grid-template-rows: repeat(1, 150px);
+    }
+    .menu-title{width: 95%;}
+}
+
+@media only screen and (max-width: 600px){
+    .mycard{width: 98.3%}
+    .menu
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 290px);
+        grid-template-rows: repeat(1, 150px);
+    }
+    .menu-title{width: 90%;}
+}
+@media only screen and (max-width: 560px){
+    .menu{
+        grid-template-columns: 100%;
+    }
+   .mycard{width: 97.3%;}
+   .header-title{font-size: 90%;}
+   .menu-title{width: 95%;}
+
+}
